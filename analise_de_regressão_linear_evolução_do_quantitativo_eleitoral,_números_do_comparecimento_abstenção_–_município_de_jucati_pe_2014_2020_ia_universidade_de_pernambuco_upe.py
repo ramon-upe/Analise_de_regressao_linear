@@ -40,11 +40,12 @@ print('| 2014 | 2º Turno |      9.299      |      6.684     |   2.615   |')
 print('| 2016 | 1º Turno |      8.670      |      8.089     |    581    |')
 print('| 2018 | 1º Turno |      8.803      |      7.046     |   1.757   |')
 print('| 2018 | 2º Turno |      8.803      |      7.251     |   1.552   |')
-print('| 2020 | 1º Turno |      9.587      |     ', ("%.3f" % numero2),'    |  ',("%.3f" % numero1), '  |')
-print('')
 
-calc= 9.587-previsao
+calc = 9.587 - previsao
 numero1 = calc
 numero2 = previsao
+
+print('| 2020 | 1º Turno |      9.587      |     ', ("%.3f" % numero2),'    |  ',("%.3f" % numero1), '  |')
+print('')
 
 print('Provavel numero de Votos Validos nas eleiçoes de 2020, no municipio de Jucati-PE:', ("%.3f" % numero2))
